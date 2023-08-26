@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class PagPrincipal {
 
     @RequestMapping(value = "/principal", method = RequestMethod.GET)
-    @ResponseBody
     public String paginaPrincipal(){
         return "principal";
     }
